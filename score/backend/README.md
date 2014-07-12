@@ -1,6 +1,14 @@
-# backend
+# score-backend
 ### a Sails application
 
+npm install -g sails
+npm install sails-mysql
+sails lift
+
+[http://localhost:1337](http://localhost:1337)
+
+### Local mysql DB
+* create database and user:
 CREATE DATABASE `scores` COLLATE 'utf8_general_ci';
 CREATE USER 'scores'@'localhost' IDENTIFIED BY 'scores';
 GRANT USAGE ON *.* TO 'scores'@'localhost';
