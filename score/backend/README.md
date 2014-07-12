@@ -18,7 +18,7 @@
     FLUSH PRIVILEGES;
 
 ### add score
-* post: http://localhost:1337/score
+* post: http://localhost:1337/score/checkedCreate
 * header: Content-Type application/json
 * body (raw JSON):
 
