@@ -28,6 +28,7 @@
         "playerName": "Ronky",
         "scoreType": "arcade",
         "score": 75643,
+        "time": 544,
         "level": "1"
     }
 
