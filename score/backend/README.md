@@ -43,5 +43,12 @@
         }
       },
         "limit": "10",
-        "sord": "score DESC"
+        "sort": "score DESC"
     }
+
+### find my current standing
+level
+playerId
+get: http://localhost:1337/score/findMyStanding?level=aaa&playerId=55
+
+returns []. each score has added attribute 'position'
